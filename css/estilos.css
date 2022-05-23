@@ -27,6 +27,13 @@ img {
   vertical-align: top;
   max-width: 100%;
 }
+a {
+  text-decoration: none;
+  color: #303133;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 /* ------------------------------------------------*/
 /*EMCABEZADO/
 /* ------------------------------------------------*/
