@@ -30,9 +30,10 @@ img {
 a {
   text-decoration: none;
   color: #303133;
-  -o-transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
+}
+a:hover {
+  color: gold;
 }
 /* ------------------------------------------------*/
 /*EMCABEZADO/
