@@ -148,6 +148,10 @@ header{
 
                 i{
                     position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, 50%);
+                    font-size: 1.5625rem;
                 }
             }
         }
@@ -181,6 +185,29 @@ header{
             &.der{
                 background-image: url('../img/portada-3.jpg');
                
+            }
+
+            .overlay{
+                opacity: 0;
+                width: 100%;
+                height: 100%;
+                background: fade(@negro-custom, 40%);
+                cursor: pointer;
+                -o-transition:      all .3s ease;
+                -webkit-transition: all .3s ease;
+                transition:         all .3s ease;
+
+                &:hover{
+                    opacity: 1;
+                }
+
+                i{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, 50%);
+                    font-size: 1.5625rem;
+                }
             }
 
             

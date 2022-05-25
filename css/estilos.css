@@ -107,6 +107,10 @@ header .menu-bar-pc .top-redes a {
 }
 .main .portada .col .foto .overlay i {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 1.5625rem;
 }
 .main .portada .col .texto {
   width: 50%;
@@ -134,4 +138,24 @@ header .menu-bar-pc .top-redes a {
 }
 .main .portada .col .foto-full.der {
   background-image: url('../img/portada-3.jpg');
+}
+.main .portada .col .foto-full .overlay {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 22, 24, 0.4);
+  cursor: pointer;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.main .portada .col .foto-full .overlay:hover {
+  opacity: 1;
+}
+.main .portada .col .foto-full .overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 1.5625rem;
 }
