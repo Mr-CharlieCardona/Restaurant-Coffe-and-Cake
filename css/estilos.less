@@ -208,13 +208,45 @@ header{
                     transform: translate(-50%, 50%);
                     font-size: 1.5625rem;
                 }
-            }
-
-            
+            }  
         }
     }
 }
 
+/* -----        NOSOTROS        ----------*/
+ 
+.nosotros{
+    padding: 5.625rem 0;
 
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .col.izq{
+            width: 30%;
+            border-right: 1px solid @gris-claro;    
+            display: flex;
+            align-items: center;
+            padding-right: 5%;        
+        }
+
+        .col.der{
+            width: 70%;
+            padding-left: 5%;
+
+            .texto{
+                p{
+                    font-size: 1.125rem;
+                    line-height: 1.75;
+                    color: @texto-claro;
+                }
+            }
+
+
+        }
+    }
+
+}
 
 }

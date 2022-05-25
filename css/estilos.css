@@ -66,6 +66,7 @@ header .menu-bar-pc .top-redes a {
 /* ------------------------------------------------*/
 .main {
   margin-top: 5.875rem;
+  /* -----        NOSOTROS        ----------*/
 }
 .main .portada {
   display: flex;
@@ -158,4 +159,28 @@ header .menu-bar-pc .top-redes a {
   left: 50%;
   transform: translate(-50%, 50%);
   font-size: 1.5625rem;
+}
+.main .nosotros {
+  padding: 5.625rem 0;
+}
+.main .nosotros .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.main .nosotros .container .col.izq {
+  width: 30%;
+  border-right: 1px solid #eaeaea;
+  display: flex;
+  align-items: center;
+  padding-right: 5%;
+}
+.main .nosotros .container .col.der {
+  width: 70%;
+  padding-left: 5%;
+}
+.main .nosotros .container .col.der .texto p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #777;
 }
