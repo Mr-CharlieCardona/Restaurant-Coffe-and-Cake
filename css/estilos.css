@@ -35,6 +35,18 @@ a {
 a:hover {
   color: gold;
 }
+.titulo-seccion {
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 3.6875rem;
+  margin-bottom: 1.125rem;
+  font-style: italic;
+  letter-spacing: -0.02em;
+}
+p {
+  font-size: 1.25rem;
+  color: #777;
+}
 /* ------------------------------------------------*/
 /*EMCABEZADO/
 /* ------------------------------------------------*/
