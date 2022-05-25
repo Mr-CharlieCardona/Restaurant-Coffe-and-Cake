@@ -61,3 +61,24 @@ header .menu-bar-pc .menu-principal a {
 header .menu-bar-pc .top-redes a {
   padding: 0 0.5rem;
 }
+/* ------------------------------------------------*/
+/*MAIN/
+/* ------------------------------------------------*/
+.main {
+  margin-top: 5.875rem;
+}
+.main .portada {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main .portada .col {
+  width: 50%;
+  background: #141618;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .portada .col .foto {
+  background-size: cover;
+}
