@@ -88,3 +88,7 @@ header .menu-bar-pc .top-redes a {
   background-image: url('../img/portada-1.jpg');
   background-position: left;
 }
+.main .portada .col .foto.der {
+  background-image: url('../img/portada-4.jpg');
+  opacity: 0.8;
+}
