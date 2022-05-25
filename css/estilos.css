@@ -81,4 +81,10 @@ header .menu-bar-pc .top-redes a {
 }
 .main .portada .col .foto {
   background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+.main .portada .col .foto.izq {
+  background-image: url('../img/portada-1.jpg');
+  background-position: left;
 }
