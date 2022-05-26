@@ -1,11 +1,11 @@
-/* ------------------------------------------------*/
-/*VARIABLES*/
-/* ------------------------------------------------*/
-/*COLORES*/
+/*-------------------------------------*/
+/*Variables*/
+/*-------------------------------------*/
+/*Colores*/
 /*Fuentes*/
-/* ------------------------------------------------*/
-/*GENERALES/
-/* ------------------------------------------------*/
+/*-------------------------------------*/
+/*Generales*/
+/*-------------------------------------*/
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ body {
 }
 .container {
   width: 90%;
-  max-width: 1080;
+  max-width: 1080px;
   margin: 0 auto;
 }
 img {
@@ -30,12 +30,14 @@ img {
 a {
   text-decoration: none;
   color: #303133;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 a:hover {
-  color: gold;
+  color: rgba(48, 49, 51, 0.5);
 }
-.titulo-seccion {
+.titulo-seccion h2 {
   font-size: 3.125rem;
   font-weight: 400;
   line-height: 3.6875rem;
@@ -43,13 +45,13 @@ a:hover {
   font-style: italic;
   letter-spacing: -0.02em;
 }
-p {
+.titulo-seccion p {
   font-size: 1.25rem;
   color: #777;
 }
-/* ------------------------------------------------*/
-/*EMCABEZADO/
-/* ------------------------------------------------*/
+/*-------------------------------------*/
+/*Encabezado*/
+/*-------------------------------------*/
 header .menu-bar-pc {
   background: #fff;
   width: 100%;
@@ -65,20 +67,21 @@ header .menu-bar-pc {
   border-bottom: 1px solid #eaeaea;
 }
 header .menu-bar-pc .logo {
-  max-width: 3.1rem;
+  max-width: 3.125rem;
 }
 header .menu-bar-pc .menu-principal a {
-  padding: 0 0.5rem;
+  padding: 0 0.5625rem;
 }
 header .menu-bar-pc .top-redes a {
-  padding: 0 0.5rem;
+  padding: 0 0.5625rem;
 }
-/* ------------------------------------------------*/
-/*MAIN/
-/* ------------------------------------------------*/
+/*-------------------------------------*/
+/*Main*/
+/*-------------------------------------*/
 .main {
   margin-top: 5.875rem;
-  /* -----        NOSOTROS        ----------*/
+  /*Portada*/
+  /*Nosotros*/
 }
 .main .portada {
   display: flex;
@@ -110,9 +113,10 @@ header .menu-bar-pc .top-redes a {
   width: 100%;
   height: 100%;
   background: rgba(20, 22, 24, 0.4);
+  position: relative;
   cursor: pointer;
-  -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .main .portada .col .foto .overlay:hover {
@@ -122,7 +126,7 @@ header .menu-bar-pc .top-redes a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
   font-size: 1.5625rem;
 }
 .main .portada .col .texto {
@@ -132,7 +136,7 @@ header .menu-bar-pc .top-redes a {
 .main .portada .col .texto h2 {
   font-size: 1.8125rem;
   font-weight: 400;
-  line-height: 2.687rem;
+  line-height: 2.6875rem;
   margin-bottom: 1.125rem;
 }
 .main .portada .col .texto p {
@@ -157,9 +161,10 @@ header .menu-bar-pc .top-redes a {
   width: 100%;
   height: 100%;
   background: rgba(20, 22, 24, 0.4);
+  position: relative;
   cursor: pointer;
-  -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .main .portada .col .foto-full .overlay:hover {
@@ -169,7 +174,7 @@ header .menu-bar-pc .top-redes a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
   font-size: 1.5625rem;
 }
 .main .nosotros {
